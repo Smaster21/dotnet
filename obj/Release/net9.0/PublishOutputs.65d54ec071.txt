@@ -1,0 +1,9 @@
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.exe
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\appsettings.Development.json
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\appsettings.json
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.dll
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.deps.json
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.runtimeconfig.json
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.pdb
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\sarfaraz.master\Desktop\net\hii\publish\Microsoft.EntityFrameworkCore.Abstractions.dll

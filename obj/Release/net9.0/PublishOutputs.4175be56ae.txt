@@ -1,0 +1,15 @@
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.exe
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\publish\web.config
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\appsettings.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\publish\appsettings.Development.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\publish\appsettings.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\publish\hii.deps.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\publish\hii.runtimeconfig.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\publish\hii.staticwebassets.endpoints.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.dll
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.deps.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.runtimeconfig.json
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.pdb
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\Microsoft.EntityFrameworkCore.dll
+C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
