@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\hii.bundle.scp.css",
-      "PackagePath": "staticwebassets\\hii.4anjehgmj9.bundle.scp.css"
+      "Id": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\YourPackageId.bundle.scp.css",
+      "PackagePath": "staticwebassets\\YourPackageId.tct5kau9ot.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css",
@@ -257,24 +257,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.hii.props",
-      "PackagePath": "build\\hii.props"
-    },
-    {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.hii.props",
-      "PackagePath": "buildMultiTargeting\\hii.props"
-    },
-    {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.hii.props",
-      "PackagePath": "buildTransitive\\hii.props"
-    },
-    {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.hii.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.YourPackageId.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.hii.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.YourPackageId.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.YourPackageId.props",
+      "PackagePath": "build\\YourPackageId.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.YourPackageId.props",
+      "PackagePath": "buildMultiTargeting\\YourPackageId.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.YourPackageId.props",
+      "PackagePath": "buildTransitive\\YourPackageId.props"
     }
   ],
   "ElementsToRemove": []

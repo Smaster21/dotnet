@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>hii</id>
+    <version>1.0.0</version>
+    <authors>hii</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="a7ab2af41fffde1f2a2b5624f3069597c0c0f1e2" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net9.0">
+        <frameworkReference name="Microsoft.AspNetCore.App" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net9.0/publish/web.config" buildAction="Content" />
+      <files include="any/net9.0/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net9.0/appsettings.json" buildAction="Content" />
+      <files include="any/net9.0/publish/appsettings.Development.json" buildAction="Content" />
+      <files include="any/net9.0/publish/appsettings.json" buildAction="Content" />
+      <files include="any/net9.0/publish/hii.deps.json" buildAction="Content" />
+      <files include="any/net9.0/publish/hii.runtimeconfig.json" buildAction="Content" />
+      <files include="any/net9.0/publish/hii.staticwebassets.endpoints.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\hii.runtimeconfig.json" target="lib\net9.0\hii.runtimeconfig.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\hii.dll" target="lib\net9.0\hii.dll" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\web.config" target="content\publish\web.config" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\web.config" target="contentFiles\any\net9.0\publish\web.config" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\appsettings.Development.json" target="content\appsettings.Development.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\appsettings.Development.json" target="contentFiles\any\net9.0\appsettings.Development.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\appsettings.json" target="content\appsettings.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\appsettings.json" target="contentFiles\any\net9.0\appsettings.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\appsettings.Development.json" target="content\publish\appsettings.Development.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\appsettings.Development.json" target="contentFiles\any\net9.0\publish\appsettings.Development.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\appsettings.json" target="content\publish\appsettings.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\appsettings.json" target="contentFiles\any\net9.0\publish\appsettings.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.deps.json" target="content\publish\hii.deps.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.deps.json" target="contentFiles\any\net9.0\publish\hii.deps.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.runtimeconfig.json" target="content\publish\hii.runtimeconfig.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.runtimeconfig.json" target="contentFiles\any\net9.0\publish\hii.runtimeconfig.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.staticwebassets.endpoints.json" target="content\publish\hii.staticwebassets.endpoints.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\publish\hii.staticwebassets.endpoints.json" target="contentFiles\any\net9.0\publish\hii.staticwebassets.endpoints.json" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\scopedcss\projectbundle\hii.bundle.scp.css" target="staticwebassets\hii.4anjehgmj9.bundle.scp.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\css\site.css" target="staticwebassets\css\site.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\favicon.ico" target="staticwebassets\favicon.ico" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\js\site.js" target="staticwebassets\js\site.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\LICENSE" target="staticwebassets\lib\bootstrap\LICENSE" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" target="staticwebassets\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" target="staticwebassets\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" target="staticwebassets\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js" target="staticwebassets\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js" target="staticwebassets\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation\LICENSE.md" target="staticwebassets\lib\jquery-validation\LICENSE.md" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation\dist\additional-methods.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" target="staticwebassets\lib\jquery-validation\dist\additional-methods.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation\dist\jquery.validate.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" target="staticwebassets\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\LICENSE.txt" target="staticwebassets\lib\jquery\LICENSE.txt" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\dist\jquery.js" target="staticwebassets\lib\jquery\dist\jquery.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\dist\jquery.min.js" target="staticwebassets\lib\jquery\dist\jquery.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\dist\jquery.min.map" target="staticwebassets\lib\jquery\dist\jquery.min.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\dist\jquery.slim.js" target="staticwebassets\lib\jquery\dist\jquery.slim.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\dist\jquery.slim.min.js" target="staticwebassets\lib\jquery\dist\jquery.slim.min.js" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\wwwroot\lib\jquery\dist\jquery.slim.min.map" target="staticwebassets\lib\jquery\dist\jquery.slim.min.map" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\staticwebassets\msbuild.build.hii.props" target="build\hii.props" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\staticwebassets\msbuild.buildMultiTargeting.hii.props" target="buildMultiTargeting\hii.props" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\staticwebassets\msbuild.buildTransitive.hii.props" target="buildTransitive\hii.props" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\staticwebassets\msbuild.hii.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\staticwebassets\msbuild.hii.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+  </files>
+</package>

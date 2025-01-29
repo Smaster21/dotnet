@@ -20,7 +20,6 @@ C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\hii.RazorAssemblyInf
 C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\scopedcss\bundle\hii.styles.css
 C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\scopedcss\projectbundle\hii.bundle.scp.css
-C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\compressed\hwgck84z0e-b9sayid5wm.gz
 C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\compressed\nt4nv8i8wj-61n19gt1b8.gz
 C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\compressed\l1ajw65bs0-xtxxf3hu2r.gz
 C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\compressed\iyzktzrlqv-bqjiyaj88i.gz
@@ -105,3 +104,5 @@ C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.deps.jso
 C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.runtimeconfig.json
 C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\hii.staticwebassets.endpoints.json
 C:\Users\sarfaraz.master\Desktop\net\hii\bin\Release\net9.0\publish\web.config
+C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\hii.sourcelink.json
+C:\Users\sarfaraz.master\Desktop\net\hii\obj\Release\net9.0\compressed\hwgck84z0e-tz55br61z3.gz

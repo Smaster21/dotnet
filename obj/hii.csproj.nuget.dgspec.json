@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\hii.csproj",
-        "projectName": "hii",
+        "projectName": "YourPackageId",
         "projectPath": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\hii.csproj",
         "packagesPath": "C:\\Users\\sarfaraz.master\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\",
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

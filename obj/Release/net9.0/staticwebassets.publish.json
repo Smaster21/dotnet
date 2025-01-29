@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eLp1U5JGv2bMK5dGKg6lqXzSR9KdMwCp+XLIUrm6jAg=",
+  "Hash": "+u7FLayoeGwu/l6rPznaskH/8c2bB5iieonSM+5Mvg4=",
   "Source": "hii",
   "BasePath": "_content/hii",
   "Mode": "Default",
@@ -710,12 +710,12 @@
       "OriginalItemSpec": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-tz55br61z3.gz",
       "SourceId": "hii",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\",
       "BasePath": "_content/hii",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=tz55br61z3}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -724,8 +724,8 @@
       "RelatedAsset": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0suozzrugb",
-      "Integrity": "0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=",
+      "Fingerprint": "7zvcf8ju4u",
+      "Integrity": "HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css"
@@ -1781,12 +1781,12 @@
       "OriginalItemSpec": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-b9sayid5wm.br",
+      "Identity": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-tz55br61z3.br",
       "SourceId": "hii",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\",
       "BasePath": "_content/hii",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.br",
+      "RelativePath": "css/site#[.{fingerprint=tz55br61z3}]?.css.br",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1795,8 +1795,8 @@
       "RelatedAsset": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "br",
-      "Fingerprint": "fvsz3d33yr",
-      "Integrity": "FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8=",
+      "Fingerprint": "9lx96ha4ia",
+      "Integrity": "s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css"
@@ -2761,8 +2761,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "tz55br61z3",
+      "Integrity": "Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -4072,13 +4072,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-b9sayid5wm.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-tz55br61z3.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003134796238"
+          "Quality": "0.002232142857"
         }
       ],
       "ResponseHeaders": [
@@ -4088,15 +4088,252 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "447"
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-tz55br61z3.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.002808988764"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.br",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-tz55br61z3.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-tz55br61z3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.tz55br61z3.css",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-tz55br61z3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002232142857"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "447"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4116,13 +4353,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "tz55br61z3"
         },
         {
           "Name": "label",
@@ -4130,18 +4367,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-b9sayid5wm.br",
+      "Route": "css/site.tz55br61z3.css",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-tz55br61z3.br",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "br",
-          "Quality": "0.004310344828"
+          "Quality": "0.002808988764"
         }
       ],
       "ResponseHeaders": [
@@ -4151,15 +4388,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "355"
         },
         {
           "Name": "ETag",
-          "Value": "\"FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8=\""
+          "Value": "\"s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4179,13 +4416,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "tz55br61z3"
         },
         {
           "Name": "label",
@@ -4193,12 +4430,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.tz55br61z3.css",
       "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4208,7 +4445,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "877"
         },
         {
           "Name": "Content-Type",
@@ -4216,11 +4453,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4230,7 +4467,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "tz55br61z3"
         },
         {
           "Name": "label",
@@ -4238,13 +4475,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-Z3t7XLmb5kuzrZ2qFPZhv2GbpVVEBFFmxDU3DcyIUe4="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.br",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-b9sayid5wm.br",
+      "Route": "css/site.tz55br61z3.css.br",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-tz55br61z3.br",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4253,7 +4490,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "355"
         },
         {
           "Name": "Content-Type",
@@ -4261,11 +4498,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8=\""
+          "Value": "\"s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4283,7 +4520,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "tz55br61z3"
         },
         {
           "Name": "label",
@@ -4291,13 +4528,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8="
+          "Value": "sha256-s6NAoeYbs7KMXD5fa5nZzDC4Kvteh2LpNucnZpfmCSQ="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-b9sayid5wm.gz",
+      "Route": "css/site.tz55br61z3.css.gz",
+      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-tz55br61z3.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4306,7 +4543,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "318"
+          "Value": "447"
         },
         {
           "Name": "Content-Type",
@@ -4314,11 +4551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
+          "Value": "\"HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
+          "Value": "Wed, 29 Jan 2025 08:56:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4336,7 +4573,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "tz55br61z3"
         },
         {
           "Name": "label",
@@ -4344,244 +4581,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-b9sayid5wm.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003134796238"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-b9sayid5wm.br",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "br",
-          "Quality": "0.004310344828"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "667"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.br",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\publish\\hwgck84z0e-b9sayid5wm.br",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "231"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "br"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FVzJe6Q2UlG8wiE0wKPzsNcJ5m9zWTbKIN9rO8SkzT8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\sarfaraz.master\\Desktop\\net\\hii\\obj\\Release\\net9.0\\compressed\\hwgck84z0e-b9sayid5wm.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "318"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 24 Jan 2025 12:11:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-0FC1RbVkLkwKhJ1oi+r2Hw4Tm9av6DyJeo95YVvfA3Y="
+          "Value": "sha256-HZQ7h+gKCzWjeULZeqTuWkuloL3S3NeBHaJ5htjMQro="
         }
       ]
     },
