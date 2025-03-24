@@ -1,114 +1,23 @@
-pipeline {
-    agent { label 's' }
-
-    environment {
-        NEXUS_URL = 'http://localhost:8081/repository/angular_vm/'
-        NEXUS_CREDENTIALS_ID = 'nexus'
-        GROUP_ID = 'angular'
-        ARTIFACT_ID = 'angular-app' // Define ARTIFACT_ID
-        VERSION = '1.0.0'
-        FILE_EXTENSION = 'zip'
-        SONARQUBE_PROJECT_KEY = 'Angular' 
-        SONARQUBE_URL = 'http://localhost:9000'
-        SONARQUBE_TOKEN = 'sqa_d43969d5576ce0ca814edd5404a33fc0c26223d5'
-        
-    }
-
-    stages {
-        stage('Clone Repository') {
-            steps {
-                git 'https://github.com/AYuS-V/Moosam_Ang.git'
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                sh 'npm install'
-            }
-        }
-
-        stage('Build Angular Project') {
-            steps {
-                sh 'ng build ' // Add --prod flag for production build
-            }
-        }
-        
-         stage('Test') {
-            steps {
-                    sh 'ng test'
-                }
-            }
-        }
-
-        
-        stage('SonarQube Analysis') {
-            steps {
-                withEnv(["SONAR_HOST_URL=${env.SONARQUBE_URL}", "SONAR_LOGIN=${env.SONARQUBE_TOKEN}"]) {
-                    sh """
-                        npm install --save-dev sonar-scanner
-                        npx sonar-scanner \
-                            -Dsonar.projectKey=${env.SONARQUBE_PROJECT_KEY} \
-                            -Dsonar.sources=src \
-                            -Dsonar.host.url=${env.SONARQUBE_URL} \
-                            -Dsonar.login=${env.SONARQUBE_TOKEN}
-                    """
-                }
-            }
-        }
-
-        stage('Zip Dist Folder') {
-            steps {
-                script {
-                    // Remove any existing zip files
-                    sh "rm -rf /home/safumaster/Desktop/jenkins/workspace/angular/*.zip"
-                    
-                    // Generate the timestamp
-                    def timestamp = sh(script: 'date +"%Y%m%d%H%M%S"', returnStdout: true).trim()
-                    
-                    // Create the zip file with the timestamped name
-                    def distDir = '/home/safumaster/Desktop/jenkins/workspace/angular/dist'
-                    def zipFile = "${env.ARTIFACT_ID}-${env.VERSION}-${timestamp}.${env.FILE_EXTENSION}"
-                    def zipFilePath = "/home/safumaster/Desktop/jenkins/workspace/angular/${zipFile}"
-                    
-                    // Zip the dist folder
-                    sh "cd ${distDir} && zip -r ${zipFilePath} ."
-                    
-                    // Set environment variables for the zip file path
-                    env.ZIP_FILE_PATH = zipFilePath
-                    env.ZIP_FILE = zipFile
-                }
-            }
-        }
-        
-        stage('Upload to Nexus') {
-            steps {
-                script {
-                    def nexusUrl = "${env.NEXUS_URL}${env.GROUP_ID.replace('.', '/')}/${env.VERSION}/${env.ZIP_FILE}"
-                    
-                    withCredentials([usernamePassword(credentialsId: env.NEXUS_CREDENTIALS_ID, passwordVariable: 'NEXUS_PASSWORD', usernameVariable: 'NEXUS_USERNAME')]) {
-                        sh """
-                            curl -u admin:admin --upload-file ${env.ZIP_FILE_PATH} ${nexusUrl}
-                        """
-                    }
-                }
-            }
-        }
-
-        stage('Download from Nexus') {
-            steps {
-                script {
-                    // Remove any existing zip files
-                    sh "rm -rf /home/safumaster/Desktop/jenkins/workspace/angular/*.zip"
-                    
-                    def nexusUrl = "${env.NEXUS_URL}${env.GROUP_ID.replace('.', '/')}/${env.VERSION}/${env.ZIP_FILE}"
-                    
-                    withCredentials([usernamePassword(credentialsId: env.NEXUS_CREDENTIALS_ID, passwordVariable: 'NEXUS_PASSWORD', usernameVariable: 'NEXUS_USERNAME')]) {
-                        sh """
-                            curl -u admin:admin -O ${nexusUrl}
-                        """
-                    }
-                }
-            }
-        }
-    }
-}
+| **Service Name**                  | **Category** | **Use**                                                        | **Example**                                                    |
+|-----------------------------------|--------------|----------------------------------------------------------------|----------------------------------------------------------------|
+| **Azure Virtual Machines (VMs)**  | IaaS         | Scalable, on-demand computing resources.                       | Running a development environment or a web application.        |
+| **Azure Virtual Network (VNet)**  | IaaS         | Secure communication between Azure resources.                  | Creating a secure network for an application running on VMs.   |
+| **Azure Load Balancer**           | IaaS         | Distributes incoming traffic across multiple VMs.              | Ensuring high availability for web applications.               |
+| **Azure Storage**                 | IaaS         | Scalable cloud storage for data, files, and backups.           | Storing application data and backups.                          |
+| **Azure Backup**                  | IaaS         | Backup and restore capabilities for VMs and data.              | Ensuring data protection and recovery for critical workloads.  |
+| **Azure Site Recovery**           | IaaS         | Replication and recovery of VMs.                                | Disaster recovery for business continuity.                     |
+| **Azure Disk Storage**            | IaaS         | High-performance, durable block storage.                       | Storing data for databases and enterprise applications.        |
+| **Azure App Service**             | PaaS         | Hosts web apps, mobile app backends, and RESTful APIs.         | Deploying a web application without managing infrastructure.   |
+| **Azure SQL Database**            | PaaS         | Managed relational database service.                           | Hosting a database for an e-commerce application.              |
+| **Azure Functions**               | PaaS         | Serverless compute with event-driven execution.                | Running background tasks or processing real-time data.         |
+| **Azure Logic Apps**              | PaaS         | Automates workflows and integrates apps and data.              | Automating business processes like order processing.           |
+| **Azure Kubernetes Service (AKS)**| PaaS         | Manages Kubernetes clusters for containerized applications.    | Deploying and managing microservices-based applications.       |
+| **Azure Cosmos DB**               | PaaS         | Globally distributed, multi-model database service.            | Building scalable and responsive applications.                 |
+| **Azure Service Fabric**          | PaaS         | Orchestrates and manages microservices and container-based apps.| Building and managing scalable microservices applications.     |
+| **Azure DevOps**                  | PaaS         | Development tools for planning, developing, and deploying apps.| Managing CI/CD pipelines and version control.                  |
+| **Microsoft 365**                 | SaaS         | Productivity tools like Word, Excel, and Teams.                | Enabling collaboration and communication for businesses.       |
+| **Dynamics 365**                  | SaaS         | CRM and ERP applications.                                      | Managing customer relationships and business operations.       |
+| **Azure Cognitive Services**      | SaaS         | Adds AI capabilities with APIs for vision, speech, language.   | Building chatbots or image recognition features.               |
+| **Power BI**                      | SaaS         | Business analytics and visualization tools.                    | Creating interactive reports and dashboards from business data.|
+| **Azure Sentinel**                | SaaS         | Cloud-native security information and event management (SIEM). | Monitoring and analyzing security events to detect threats.    |
+| **Azure Active Directory (Azure AD)** | SaaS    | Identity and access management service.                        | Managing user identities and enabling single sign-on (SSO).    |
