@@ -1,13 +1,7 @@
----
-- name: Download Artifact from Nexus to Windows
-  hosts: windows
-  tasks:
-    - name: Create directory for artifacts
-      win_file:
-        path: C:\Artifacts
-        state: directory
+wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.11.2-1_amd64.deb && sudo WAZUH_MANAGER='yd0k64kskz4f.cloud.wazuh.com' WAZUH_REGISTRATION_PASSWORD=$'6T8RVyd0MNYY9TVuSDqCSyCOvHpeVKYb' WAZUH_AGENT_GROUP='default' WAZUH_AGENT_NAME='test' dpkg -i ./wazuh-agent_4.11.2-1_amd64.deb
 
-    - name: Download artifact from Nexus
-      win_get_url:
-        url: http://nexus.local:8081/repository/myrepo/app-v1.0.0.zip
-        dest: C:\Artifacts\app-v1.0.0.zip
+sudo systemctl daemon-reload
+sudo systemctl enable wazuh-agent
+sudo systemctl start wazuh-agent
+
+https://yd0k64kskz4f.cloud.wazuh.com/app/endpoints-summary#/agents-preview/deploy
